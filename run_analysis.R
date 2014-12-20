@@ -28,8 +28,6 @@ test_activity_id <- read.table("./test/y_test.txt")
 ## Read the activity id's of the training data 
 train_activity_id <- read.table("./train/y_train.txt")
 
-
-
 ##Combine the test subject id's, the test activity id's and test data
 test_data <- cbind(test_subject_id , test_activity_id , testdata)
 
@@ -50,9 +48,6 @@ colnames(all_data) <-c( c("subject_id", "activity_id"), as.character(feature_nam
 
 ## Step2
 ## Extracts only the measurements on the mean and standard deviation for each measurement. 
-
-## Read the features 
-##features <- read.table("./features.txt")
 
 ## get indexes for features which includes meand and std
 ## get entries that include mean() and std() at the end
