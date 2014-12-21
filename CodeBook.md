@@ -29,6 +29,8 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 The below list describes the varibales of the tidy data set. 
 
+All the variables are mean values (number) grouped by Activity and Subject. These variables are 3-axial liner acceleration, angular velocity, gravity acceleration etc. for time and frequency domain.
+
 * activity_name : Lists all the 6 activties named (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, , STANDING, LAYING)
 * subject_id : Lists all the 30 subjects by their id (value will be between 1 to 30)
 * time-BodyAcc-mean-X : 
